@@ -2,9 +2,9 @@ package ghandy
 
 import (
 	"encoding/json"
+	"github.com/gorilla/mux"
 	"log"
 	"net/http"
-	"github.com/gorilla/mux"
 	"strconv"
 	"strings"
 	"unicode/utf8"
